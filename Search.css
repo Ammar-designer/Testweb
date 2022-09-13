@@ -14,8 +14,8 @@
 }
 
 #search{
-    width: 180px;
-    height: 15px;
+    width: 190px;
+    height: 20px;
     border: 2px solid red;
     border-radius: 20px;
     transition: width 0.7s, height 0.7s;
@@ -25,5 +25,5 @@
     border-radius: 10px;
     border-color: red;
     width: 220px;
-    height: 20px;
+    height: 25px;
 }
