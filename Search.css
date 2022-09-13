@@ -1,5 +1,26 @@
+#search{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+#buttondiv, #infodiv, #inputdiv{
+    font-family: 'Aldrich';
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+}
+
 #Steamunlocked, #Crotorrent
 {
+    font-size: large;
+    font-family: 'Aldrich';
     margin-top: 5px;
     margin-right: 10px;
+}
+
+#search:hover, #search:focus{
+    border-radius: 10px;
+    border-color: red;
+    width: 220px;
+    height: 20px;
 }
