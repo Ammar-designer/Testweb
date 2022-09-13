@@ -18,6 +18,7 @@
     height: 15px;
     border: 2px solid red;
     border-radius: 20px;
+    transition: width 0.7s, height 0.7s;
 }
 
 #search:hover, #search:focus{
