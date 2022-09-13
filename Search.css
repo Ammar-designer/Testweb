@@ -23,4 +23,9 @@
     border-color: red;
     width: 220px;
     height: 20px;
+    transition: 0.9s;
+    -webkit-transition: 0.9s;
+    -moz-transition: 0.9s;
+    -ms-transition: 0.9s;
+    -o-transition: 0.9s;
 }
