@@ -12,6 +12,7 @@ body
     width: 25%;
     height: 400px;
     font-size: 120%;
+    align-items: center;
 }
 #text{
     padding-top: 5%;
@@ -20,4 +21,9 @@ body
     height: 8%;
     width: 50%;
     margin-top: 5%;
+}
+#glogin{
+    margin-top: 10px;
+    margin-left: 35%;
+    align-self: center;
 }
