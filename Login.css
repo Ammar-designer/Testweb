@@ -2,3 +2,7 @@ body
 {
     font-family: 'Aldrich';
 }
+
+#LoginPage{
+    align-self: center;
+}
