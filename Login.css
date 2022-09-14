@@ -4,5 +4,13 @@ body
 }
 
 #LoginPage{
-    align-items: center;
+    margin: auto;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    width: 30%;
+    height: 500px;
+}
+#text{
+    padding-top: 5%;
 }
