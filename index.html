@@ -4,6 +4,7 @@
     <link rel="shortcut icon" href="Image.ico" type="image/x-icon">
     <link rel="stylesheet" href="Login.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="111776639910-ssuie5e2tidrbhb3096c6908c2sm72u7.apps.googleusercontent.com">
     <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
     <title>Login</title>
 </head>
@@ -12,7 +13,9 @@
         <h1 id="text">Login</h1>
         <input type="email" name="email" id="email"><br>
         <input type="password" name="password" id="password">
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
     </div>
     <script src="Login.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 </body>
 </html>
