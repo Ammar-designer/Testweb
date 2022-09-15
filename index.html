@@ -45,5 +45,28 @@
     echo Hello
     ?>
     <script src="MainPage.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBUa8dF80zf7X_uF_f6vk6Zg3rwiXoKfZM",
+          authDomain: "mlg-craft.firebaseapp.com",
+          projectId: "mlg-craft",
+          storageBucket: "mlg-craft.appspot.com",
+          messagingSenderId: "423801745761",
+          appId: "1:423801745761:web:7f2d75a781c6a39de09520",
+          measurementId: "G-7BH195HBLJ"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>
