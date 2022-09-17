@@ -13,13 +13,17 @@ function crotorrent()
 document.getElementById("Steamunlocked").onclick = steamunlocked;
 document.getElementById("Crotorrent").onclick = crotorrent;
 
-console.log("Type custom.help() to Check Every Command In This Console");
+console.log("Type search.help() to Check Every Command In This Console");
 
-const custom = {
+const search = {
     help() {
-        console.log("custom.clear()");
+        console.log("1. search.clear() To Clear The Console");
+        console.log("2. search.goback() To Go Back");
     },
     clear() {
-        console.clear()
+        console.clear();
     },
+    goback() {
+        history.back()
+    }
 };
