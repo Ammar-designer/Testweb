@@ -3,6 +3,7 @@
     font-size: x-large;
     text-align: center;
     align-items: center;
+    align-content: center;
 }
 
 #Steamunlocked, #Crotorrent
@@ -11,10 +12,15 @@
     font-family: 'Aldrich';
     margin-top: 5px;
     margin-right: 10px;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 200px;
+    align-content: center;
+    margin-left: 10px;
 }
 
 #search{
-    width: 190px;
+    width: 200px;
     height: 20px;
     border: 2px solid red;
     border-radius: 20px;
